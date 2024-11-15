@@ -1,12 +1,4 @@
-<!-- Badges -->
-<div align="left">
- <img alt="VivoTypeService" id="language-version" src='&lt;img alt="Python" src="https://img.shields.io/badge/Python-3.9-9b59b6?style=for-the-badge"/&gt;'/>
- <img alt="VivoTypeService" id="codesmells" src="https://img.shields.io/badge/Codesmells-DINAMICO-9b59b6?style=for-the-badge"/>
- <img alt="VivoTypeService" id="coverage" src="https://img.shields.io/badge/Coverage-DINAMICO-9b59b6?style=for-the-badge"/>
- <img id="last-author" src="https://img.shields.io/badge/Último%20Mantedor-DINAMICO-9b59b6?style=for-the-badge"/>
- <img alt="VivoTypeService" id="type-project" src='&lt;img alt="TIPO" src="https://img.shields.io/badge/TIPO-Backend-9b59b6?style=for-the-badge"/&gt;'/>
-</div>
-<br/>
+
 <div align="left">
  <!-- Table content -->
  <details>
