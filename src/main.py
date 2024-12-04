@@ -151,3 +151,61 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+import json
+
+
+exemple = """
+{
+    "CREDENCIAL": {
+        "VALOR": [
+            {
+                "name": "aaaa-1"
+            },
+            {
+                "name": "aaaa-2"
+            }
+        ],
+        "VALOR 2": [
+            {
+                "name": "aaaa-3"
+            },
+            {
+                "name": "aaaa-4"
+            }
+        ]
+    }
+}
+
+
+"""
+
+#create an empty dictionary
+my_dictionary = {}
+
+if  "XPTO" not in my_dictionary:
+    my_dictionary["XPTO"] = {}
+
+if  "meutest" not in my_dictionary:
+    my_dictionary["XPTO"]["meutest"] = []
+
+if  "meutest2" not in my_dictionary:
+    my_dictionary["XPTO"]["meutest2"] = []
+
+my_dictionary["XPTO"]["meutest"].append({"name": "aaaa-1"})
+my_dictionary["XPTO"]["meutest"].append({"name": "aaaa-1"})
+
+my_dictionary["XPTO"]["meutest2"].append({"name": "aaaa-1"})
+
+print(len(my_dictionary["XPTO"]))
+
+# aa = json.dumps(my_dictionary, indent=4)
+
+# #to check the data type use the type() function
+# print(aa)
+
+#output
+
+#{}
+#<class 'dict'>
